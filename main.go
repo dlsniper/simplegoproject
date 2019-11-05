@@ -1,9 +1,13 @@
 package main
 
 import (
-	"github.com/dlsniper/simplegoproject/hello"
+	"fmt"
 )
 
 func main() {
-	hello.Hi("Hi world!")
+	fmt.Println(sum(1, 2))
+}
+
+func sum(a, b int) int {
+	return a + b
 }
